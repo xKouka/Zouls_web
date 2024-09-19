@@ -1,0 +1,56 @@
+@font-face{
+    src:url(./font/LEMONMILK-Medium.otf);
+    font-family:LEMONMILK;
+}
+body{
+    background-color: black;
+    font-family: LEMONMILK;
+    color: white;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Para que el header se quede statico*/
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#contenedor_h{
+    align-items: center;
+    display: flex;
+}
+#opc{
+    padding: 0 60px 0 60px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+hr{
+    border-width:0.08rem;
+    border-color:rgb(255, 255, 255);
+    width:100%;
+    margin-bottom: 0;
+}
+/*fieldset del quienes somos*/
+#qfiel{
+    line-height: 1.6;
+    margin: auto 600px auto 100px;
+}
+#qtext{
+    font-size: 12px;
+}
+#contenedor_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto auto auto;
+}
+#carta{
+    border-radius: 15px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: aqua;
+    width: 375px;
+    height: 575px;
+}
